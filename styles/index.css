@@ -5,7 +5,7 @@ body{
     border-radius: 8px 8px 8px 8px;
     
 }
-ul{
+.ul{
     margin: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -48,3 +48,27 @@ ul li:active{
     color: lightgreen;
 
 } */
+
+@media screen and (max-width: 576px) {
+    .ul{
+        grid-template-columns: repeat(1, 1fr);
+        /* background-color:; */
+        
+    }
+    
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+        .ul{
+            grid-template-columns: repeat(2, 1fr);
+            /* background-color:; */
+            
+        }
+        ul li > a{
+            text-decoration: none;
+            color: black;
+            font-size: large;
+        }
+    
+    
+}
