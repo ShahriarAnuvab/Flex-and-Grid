@@ -1,5 +1,62 @@
+body{
+    background-color: rgb(163, 228, 206);
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
 .container{
     display: grid;
     grid-template-columns:repeat( 3, 1fr);
     gap: 30px;
+    background-color: aqua;
+    padding: 15px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+
 }
+
+
+.item{
+    border: 2px solid black;
+    height: 60px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+#item1{
+    grid-row: span 7;
+    height: auto;
+    width: auto;
+ }
+ #item2{
+    grid-column: span 2;
+    height: auto;
+    width: auto;
+
+ }
+ 
+ #item21{
+    grid-column: span 3;
+    height: auto;
+    width: auto;
+
+ }
+ #item9{
+    grid-column: span 2;
+    height: auto;
+    width: auto;
+
+ }
+ #item12{
+    grid-row: span 3;
+    height: auto;
+    width: auto;
+
+ }
+
+
